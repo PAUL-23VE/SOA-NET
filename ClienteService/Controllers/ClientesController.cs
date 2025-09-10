@@ -7,6 +7,13 @@ namespace ClienteService.Controllers
     [Route("api/[controller]")]
     public class ClientesController : Controller
     {
+        [HttpPost]
+        public IActionResult CrearCliente([FromBody] Cliente cliente)
+        {
+            cliente.Id = 1; // Simular creación
+            return CreatedAtAction(nameof(ObtenerCliente), new { id = cliente.Id }, cliente);
+        }
+
         /* public IActionResult Index()
          {
              return View();
