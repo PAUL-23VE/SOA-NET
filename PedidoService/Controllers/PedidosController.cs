@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Mvc;
+using PedidoService.Data;
+using PedidoService.Models;
+
 [ApiController]
 [Route("api/[controller]")]
 public class PedidosController : ControllerBase

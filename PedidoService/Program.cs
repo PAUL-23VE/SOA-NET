@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using PedidoService.Data;
 
 namespace PedidoService
 {
@@ -8,16 +10,15 @@ namespace PedidoService
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
             // Add DbContext configuration
             builder.Services.AddDbContext<AppDbContext>(options =>
-     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddControllers();
+            var app = builder.Build(); // Se agregó esta línea para inicializar 'app'
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -27,12 +28,8 @@ namespace PedidoService
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
             app.MapControllers();
-
             app.Run();
         }
     }
