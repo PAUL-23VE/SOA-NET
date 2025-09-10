@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClienteService")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bb13e19e8fce23ba39d83c7e3ce35f9d19516c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8290214968fb057d48ff2c0bdd9e67c6637f0aae")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClienteService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClienteService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
