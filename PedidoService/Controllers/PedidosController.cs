@@ -16,4 +16,11 @@ public class PedidosController : ControllerBase
         _context.SaveChanges();
         return CreatedAtAction(nameof(ObtenerPedido), new { id = pedido.Id }, pedido);
     }
+    [HttpGet("{id}")]
+    public IActionResult ObtenerPedido(int id)
+    {
+        var pedido = _context.Pedidos.Find(id);
+        if (pedido == null) return NotFound();
+        return Ok(pedido);
+    }
 }
