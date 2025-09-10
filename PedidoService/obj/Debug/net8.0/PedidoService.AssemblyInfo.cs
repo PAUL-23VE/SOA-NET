@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PedidoService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a7e84009c3c9569ee2e40187c97eca5d3bca6a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26855d6c5acc5c5ce11026fcc24995d74a575e8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PedidoService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PedidoService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

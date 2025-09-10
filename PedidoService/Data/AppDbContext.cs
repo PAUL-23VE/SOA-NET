@@ -10,5 +10,6 @@ namespace PedidoService.Data
         }
 
         public DbSet<Pedido> Pedidos { get; set; }
+
     }
 }
