@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MICHAEL\\Documents\\Desktop\\aplicaciones distribuidas\\SOA-NET\\ClienteService\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|c:\\users\\paulv\\onedrive\\desktop\\aplicaciones distribuidas\\soa-net\\clienteservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|c:\\users\\paulv\\onedrive\\desktop\\aplicaciones distribuidas\\soa-net\\clienteservice\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|c:\\users\\paulv\\onedrive\\desktop\\aplicaciones distribuidas\\soa-net\\clienteservice\\data\\clientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|solutionrelative:data\\clientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|c:\\users\\paulv\\onedrive\\desktop\\aplicaciones distribuidas\\soa-net\\clienteservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|c:\\users\\paulv\\onedrive\\desktop\\aplicaciones distribuidas\\soa-net\\clienteservice\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567A9A2B-900F-43DE-805A-6542FB57CDEA}|ClienteService.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,19 +30,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{7cc9e714-2774-4fc6-8631-a07eee703286}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-10T15:47:13.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\Data\\ClienteDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ClienteDbContext.cs",
+              "ToolTip": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\Data\\ClienteDbContext.cs",
+              "RelativeToolTip": "Data\\ClienteDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:45:00.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:35:28.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\models\\Cliente.cs",
+              "RelativeDocumentMoniker": "models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\models\\Cliente.cs",
+              "RelativeToolTip": "models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:33:13.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\paulv\\OneDrive\\Desktop\\Aplicaciones Distribuidas\\SOA-NET\\ClienteService\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:19:19.532Z",
+              "EditorCaption": ""
             }
           ]
         },
