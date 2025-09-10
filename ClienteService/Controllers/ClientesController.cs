@@ -1,23 +1,30 @@
-﻿using ClienteService.models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using ClienteService.Data;
+using ClienteService.Models;
 
-namespace ClienteService.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class ClientesController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ClientesController : Controller
-    {
-        [HttpPost]
-        public IActionResult CrearCliente([FromBody] Cliente cliente)
-        {
-            cliente.Id = 1; // Simular creación
-            return CreatedAtAction(nameof(ObtenerCliente), new { id = cliente.Id }, cliente);
-        }
+    private readonly AppDbContext _context;
 
-        /* public IActionResult Index()
-         {
-             return View();
-         }
-       */
+    public ClientesController(AppDbContext context)
+    {
+        _context = context;
+    }
+
+    [HttpPost]
+    public IActionResult CrearCliente([FromBody] Cliente cliente)
+    {
+        cliente.Id = 1; // Simular creación
+        return CreatedAtAction(nameof(ObtenerCliente), new { id = cliente.Id }, cliente);
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult ObtenerCliente(int id)
+    {
+        var cliente = _context.Cliente.Find(id);
+        if (cliente == null) return NotFound();
+        return Ok(cliente);
     }
 }
